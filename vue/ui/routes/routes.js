@@ -749,6 +749,23 @@ routes.push(routes_list);
 import UiBlocks from "./../layouts/Ui";
 
 import IndexBlocks from "./../vaahnuxt/blocks/pages/index";
+import others from "./../vaahnuxt/blocks/pages/others";
+import cards from "./../vaahnuxt/blocks/pages/cards";
+import cardstwo from "./../vaahnuxt/blocks/pages/cards-two";
+import pricing from "./../vaahnuxt/blocks/pages/pricing";
+import tabsblocks from "./../vaahnuxt/blocks/pages/tabs";
+import calltoactions from "./../vaahnuxt/blocks/pages/calltoactions";
+import forms from "./../vaahnuxt/blocks/pages/forms";
+import blogs from "./../vaahnuxt/blocks/pages/blogs";
+import clientele from "./../vaahnuxt/blocks/pages/clientele";
+import faq from "./../vaahnuxt/blocks/pages/faq";
+import list from "./../vaahnuxt/blocks/pages/list";
+import testimonials from "./../vaahnuxt/blocks/pages/testimonials";
+import counter from "./../vaahnuxt/blocks/pages/counter";
+import process from "./../vaahnuxt/blocks/pages/process";
+import team from "./../vaahnuxt/blocks/pages/team";
+import portfolio from "./../vaahnuxt/blocks/pages/portfolio";
+import banner from "./../vaahnuxt/blocks/pages/banner";
 import cheatsheet from "./../vaahnuxt/blocks/pages/cheatsheet";
 
 
@@ -762,6 +779,108 @@ routes_list =     {
             path: '/',
             name: 'blocks.indexblocks',
             component: IndexBlocks,
+            props: true,
+        },
+        {
+            path: 'others',
+            name: 'blocks.others',
+            component: others,
+            props: true,
+        },
+        {
+            path: 'cards',
+            name: 'blocks.cards',
+            component: cards,
+            props: true,
+        },
+        {
+            path: 'cards-two',
+            name: 'blocks.cardstwo',
+            component: cardstwo,
+            props: true,
+        },
+        {
+            path: 'banner',
+            name: 'blocks.banner',
+            component: banner,
+            props: true,
+        },
+        {
+            path: 'pricing',
+            name: 'blocks.pricing',
+            component: pricing,
+            props: true,
+        },
+        {
+            path: 'tabs',
+            name: 'blocks.tabs',
+            component: tabsblocks,
+            props: true,
+        },
+        {
+            path: 'calltoactions',
+            name: 'blocks.calltoactions',
+            component: calltoactions,
+            props: true,
+        },
+        {
+            path: 'forms',
+            name: 'blocks.forms',
+            component: forms,
+            props: true,
+        },
+        {
+            path: 'blogs',
+            name: 'blocks.blogs',
+            component: blogs,
+            props: true,
+        },
+        {
+            path: 'clientele',
+            name: 'blocks.clientele',
+            component: clientele,
+            props: true,
+        },
+        {
+            path: 'faq',
+            name: 'blocks.faq',
+            component: faq,
+            props: true,
+        },
+        {
+            path: 'list',
+            name: 'blocks.list',
+            component: list,
+            props: true,
+        },
+        {
+            path: 'testimonials',
+            name: 'blocks.testimonials',
+            component: testimonials,
+            props: true,
+        },
+        {
+            path: 'counter',
+            name: 'blocks.counter',
+            component: counter,
+            props: true,
+        },
+        {
+            path: 'process',
+            name: 'blocks.process',
+            component: process,
+            props: true,
+        },
+        {
+            path: 'team',
+            name: 'blocks.team',
+            component: team,
+            props: true,
+        },
+        {
+            path: 'portfolio',
+            name: 'blocks.portfolio',
+            component: portfolio,
             props: true,
         },
         {
