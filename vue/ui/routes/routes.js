@@ -52,6 +52,7 @@ import Ui from "./../layouts/Ui";
 import button from "./../vaahnuxt/buefy/pages/button";
 import carousel from "./../vaahnuxt/buefy/pages/carousel";
 import collapse from "./../vaahnuxt/buefy/pages/collapse";
+import dialog from "./../vaahnuxt/buefy/pages/dialog";
 import icon from "./../vaahnuxt/buefy/pages/icon";
 
 
@@ -83,6 +84,12 @@ routes_list =     {
             path: 'collapse',
             name: 'bue.collapse',
             component: collapse,
+            props: true,
+        },
+        {
+            path: 'dialog',
+            name: 'bue.dialog',
+            component: dialog,
             props: true,
         },
         {
