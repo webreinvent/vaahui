@@ -635,7 +635,17 @@ routes.push(routes_list);
 import UiPageLayouts from "./../layouts/Ui";
 
 import layoutv1 from "./../vaahnuxt/page-layouts/pages/layout-v1";
-
+import loginform from "./../vaahnuxt/page-layouts/pages/login-form";
+import formpagev1 from "./../vaahnuxt/page-layouts/pages/form-page-v1";
+import formpagev2 from "./../vaahnuxt/page-layouts/pages/form-page-v2";
+import formpagev3 from "./../vaahnuxt/page-layouts/pages/form-page-v3";
+import formpagev4 from "./../vaahnuxt/page-layouts/pages/form-page-v4";
+import crmpage from "./../vaahnuxt/page-layouts/pages/crm-page";
+import pointofsalepage from "./../vaahnuxt/page-layouts/pages/point-of-sale-page";
+import applistviewsmall from "./../vaahnuxt/page-layouts/pages/app-list-view-small";
+import postpage from "./../vaahnuxt/page-layouts/pages/post-page";
+import postdetailsv1 from "./../vaahnuxt/page-layouts/pages/post-details-v1";
+import postdetailsv2 from "./../vaahnuxt/page-layouts/pages/post-details-v2";
 
 
 routes_list =     {
@@ -647,6 +657,78 @@ routes_list =     {
             path: '/',
             name: 'pagelayouts.layoutv1',
             component: layoutv1,
+            props: true,
+        },
+        {
+            path: 'layout-v1',
+            name: 'pagelayouts.layoutv1',
+            component: layoutv1,
+            props: true,
+        },
+        {
+            path: 'login-form',
+            name: 'pagelayouts.loginform',
+            component: loginform,
+            props: true,
+        },
+        {
+            path: 'form-page-v1',
+            name: 'pagelayouts.formpagev1',
+            component: formpagev1,
+            props: true,
+        },
+        {
+            path: 'form-page-v2',
+            name: 'pagelayouts.formpagev2',
+            component: formpagev2,
+            props: true,
+        },
+        {
+            path: 'form-page-v3',
+            name: 'pagelayouts.formpagev3',
+            component: formpagev3,
+            props: true,
+        },
+        {
+            path: 'form-page-v4',
+            name: 'pagelayouts.formpagev4',
+            component: formpagev4,
+            props: true,
+        },
+        {
+            path: 'crm-page',
+            name: 'pagelayouts.crmpage',
+            component: crmpage,
+            props: true,
+        },
+        {
+            path: 'point-of-sale-page',
+            name: 'pagelayouts.pointofsalepage',
+            component: pointofsalepage,
+            props: true,
+        },
+        {
+            path: 'app-list-view-small',
+            name: 'pagelayouts.applistviewsmall',
+            component: applistviewsmall,
+            props: true,
+        },
+        {
+            path: 'post-page',
+            name: 'pagelayouts.postpage',
+            component: postpage,
+            props: true,
+        },
+        {
+            path: 'post-details-v1',
+            name: 'pagelayouts.postdetailsv1',
+            component: postdetailsv1,
+            props: true,
+        },
+        {
+            path: 'post-details-v2',
+            name: 'pagelayouts.postdetailsv2',
+            component: postdetailsv2,
             props: true,
         }
     ]
