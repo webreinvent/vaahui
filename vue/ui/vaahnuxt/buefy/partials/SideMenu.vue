@@ -36,22 +36,22 @@
 
     <p class="menu-label">Form Controls</p>
     <ul class="menu-list">
-      <li><vaah-link to="/ui/buefy/formcontrol/autocomplete">Autocomplete</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/checkbox">Checkbox</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/clockpicker">Clockpicker</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/datepicker">Datepicker</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/datetimepicker">Datetimepicker</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/field">Field</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/input">Input</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/numberinput">Numberinput</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/radio">Radio</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/rate">Rate</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/select">Select</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/slider">Slider</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/switch">Switch</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/taginput">Taginput</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/timepicker">TimePicker</vaah-link></li>
-      <li><vaah-link to="/ui/buefy/formcontrol/upload">Upload</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/autocomplete">Autocomplete</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/checkbox">Checkbox</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/clockpicker">Clockpicker</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/datepicker">Datepicker</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/datetimepicker">Datetimepicker</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/field">Field</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/input">Input</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/numberinput">Numberinput</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/radio">Radio</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/rate">Rate</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/select">Select</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/slider">Slider</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/switch">Switch</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/taginput">Taginput</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/timepicker">TimePicker</vaah-link></li>
+      <li><vaah-link to="/ui/buefy/upload">Upload</vaah-link></li>
     </ul>
 
   </aside>

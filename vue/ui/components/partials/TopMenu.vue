@@ -16,12 +16,27 @@
                 <b-navbar-item tag="router-link" :to="{ name: 'bue.index' }">
                     Buefy
                 </b-navbar-item>
-                <b-navbar-dropdown label="Info">
-                    <b-navbar-item href="#">
-                        About
+                <b-navbar-item tag="router-link" :to="{ name: 'bulma.index' }">
+                    Bulma
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" :to="{ name: 'docs.index' }">
+                    Docs
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" :to="{ name: 'pagelayouts.layoutv1' }">
+                    Page Layouts
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" :to="{ name: 'blocks.indexblocks' }">
+                    Blocks
+                </b-navbar-item>
+                <b-navbar-dropdown label="Ui Guide">
+                    <b-navbar-item tag="router-link" :to="{ name: 'bue.index' }">
+                        Buefy
                     </b-navbar-item>
-                    <b-navbar-item href="#">
-                        Contact
+                    <b-navbar-item tag="router-link" :to="{ name: 'bulma.index' }">
+                        Bulma
+                    </b-navbar-item>
+                    <b-navbar-item tag="router-link" :to="{ name: 'docs.index' }">
+                        Docs
                     </b-navbar-item>
                 </b-navbar-dropdown>
             </template>
