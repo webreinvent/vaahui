@@ -336,7 +336,41 @@ routes.push(routes_list);
 
 import UiBulma from "./../layouts/Ui";
 
+import IndexBulma from "./../vaahnuxt/bulma/pages/layouts/container";
 import container from "./../vaahnuxt/bulma/pages/layouts/container";
+import level from "./../vaahnuxt/bulma/pages/layouts/level";
+import mediaobject from "./../vaahnuxt/bulma/pages/layouts/mediaobject";
+import hero from "./../vaahnuxt/bulma/pages/layouts/hero";
+import tiles from "./../vaahnuxt/bulma/pages/layouts/tiles";
+import footer from "./../vaahnuxt/bulma/pages/layouts/footer";
+import general from "./../vaahnuxt/bulma/pages/forms/general";
+import inputbulma from "./../vaahnuxt/bulma/pages/forms/input";
+import textareabulma from "./../vaahnuxt/bulma/pages/forms/textarea";
+import selectbulma from "./../vaahnuxt/bulma/pages/forms/select";
+import checkboxbulma from "./../vaahnuxt/bulma/pages/forms/checkbox";
+import radiobulma from "./../vaahnuxt/bulma/pages/forms/radio";
+import filebulma from "./../vaahnuxt/bulma/pages/forms/file";
+import box from "./../vaahnuxt/bulma/pages/elements/box";
+import buttonbulma from "./../vaahnuxt/bulma/pages/elements/buttons";
+import content from "./../vaahnuxt/bulma/pages/elements/content";
+import deletebulma from "./../vaahnuxt/bulma/pages/elements/delete";
+import iconbulma from "./../vaahnuxt/bulma/pages/elements/icon";
+import image from "./../vaahnuxt/bulma/pages/elements/image";
+import notificationbulma from "./../vaahnuxt/bulma/pages/elements/notification";
+import progressbar from "./../vaahnuxt/bulma/pages/elements/progressbar";
+import tablebulma from "./../vaahnuxt/bulma/pages/elements/table";
+import tagbulma from "./../vaahnuxt/bulma/pages/elements/tag";
+import titlebulma from "./../vaahnuxt/bulma/pages/elements/title";
+import breadcrumbsbulma from "./../vaahnuxt/bulma/pages/components/breadcrumbs";
+import cardsbulma from "./../vaahnuxt/bulma/pages/components/cards";
+import dropdownbulma from "./../vaahnuxt/bulma/pages/components/dropdown";
+import menubulma from "./../vaahnuxt/bulma/pages/components/menu";
+import messagebulma from "./../vaahnuxt/bulma/pages/components/message";
+import modalbulma from "./../vaahnuxt/bulma/pages/components/modal";
+import navbarbulma from "./../vaahnuxt/bulma/pages/components/navbar";
+import paginationbulma from "./../vaahnuxt/bulma/pages/components/pagination";
+import panelbulma from "./../vaahnuxt/bulma/pages/components/panel";
+import tabsbulma from "./../vaahnuxt/bulma/pages/components/tabs";
 
 
 
@@ -348,7 +382,211 @@ routes_list =     {
         {
             path: '/',
             name: 'bulma.index',
+            component: IndexBulma,
+            props: true,
+        },
+        {
+            path: 'container',
+            name: 'bulma.container',
             component: container,
+            props: true,
+        },
+        {
+            path: 'level',
+            name: 'bulma.level',
+            component: level,
+            props: true,
+        },
+        {
+            path: 'mediaobject',
+            name: 'bulma.mediaobject',
+            component: mediaobject,
+            props: true,
+        },
+        {
+            path: 'hero',
+            name: 'bulma.hero',
+            component: hero,
+            props: true,
+        },
+        {
+            path: 'footer',
+            name: 'bulma.footer',
+            component: footer,
+            props: true,
+        },
+        {
+            path: 'tiles',
+            name: 'bulma.tiles',
+            component: tiles,
+            props: true,
+        },
+        {
+            path: 'general',
+            name: 'bulma.general',
+            component: general,
+            props: true,
+        },
+        {
+            path: 'input',
+            name: 'bulma.input',
+            component: inputbulma,
+            props: true,
+        },
+        {
+            path: 'textarea',
+            name: 'bulma.textarea',
+            component: textareabulma,
+            props: true,
+        },
+        {
+            path: 'select',
+            name: 'bulma.select',
+            component: selectbulma,
+            props: true,
+        },
+        {
+            path: 'checkbox',
+            name: 'bulma.checkbox',
+            component: checkboxbulma,
+            props: true,
+        },
+        {
+            path: 'radio',
+            name: 'bulma.radio',
+            component: radiobulma,
+            props: true,
+        },
+        {
+            path: 'file',
+            name: 'bulma.file',
+            component: filebulma,
+            props: true,
+        },
+        {
+            path: 'box',
+            name: 'bulma.box',
+            component: box,
+            props: true,
+        },
+        {
+            path: 'button',
+            name: 'bulma.button',
+            component: buttonbulma,
+            props: true,
+        },
+        {
+            path: 'content',
+            name: 'bulma.content',
+            component: content,
+            props: true,
+        },
+        {
+            path: 'delete',
+            name: 'bulma.delete',
+            component: deletebulma,
+            props: true,
+        },
+        {
+            path: 'icon',
+            name: 'bulma.icon',
+            component: iconbulma,
+            props: true,
+        },
+        {
+            path: 'image',
+            name: 'bulma.image',
+            component: image,
+            props: true,
+        },
+        {
+            path: 'notification',
+            name: 'bulma.notification',
+            component: notificationbulma,
+            props: true,
+        },
+        {
+            path: 'progressbar',
+            name: 'bulma.progressbar',
+            component: progressbar,
+            props: true,
+        },
+        {
+            path: 'table',
+            name: 'bulma.table',
+            component: tablebulma,
+            props: true,
+        },
+        {
+            path: 'tag',
+            name: 'bulma.tag',
+            component: tagbulma,
+            props: true,
+        },
+        {
+            path: 'title',
+            name: 'bulma.title',
+            component: titlebulma,
+            props: true,
+        },
+        {
+            path: 'breadcrumbs',
+            name: 'bulma.breadcrumbs',
+            component: breadcrumbsbulma,
+            props: true,
+        },
+        {
+            path: 'cards',
+            name: 'bulma.cards',
+            component: cardsbulma,
+            props: true,
+        },
+        {
+            path: 'dropdown',
+            name: 'bulma.dropdown',
+            component: dropdownbulma,
+            props: true,
+        },
+        {
+            path: 'menu',
+            name: 'bulma.menu',
+            component: menubulma,
+            props: true,
+        },
+        {
+            path: 'message',
+            name: 'bulma.message',
+            component: messagebulma,
+            props: true,
+        },
+        {
+            path: 'modal',
+            name: 'bulma.modal',
+            component: modalbulma,
+            props: true,
+        },
+        {
+            path: 'navbar',
+            name: 'bulma.navbar',
+            component: navbarbulma,
+            props: true,
+        },
+        {
+            path: 'pagination',
+            name: 'bulma.pagination',
+            component: paginationbulma,
+            props: true,
+        },
+        {
+            path: 'panel',
+            name: 'bulma.panel',
+            component: panelbulma,
+            props: true,
+        },
+        {
+            path: 'tabs',
+            name: 'bulma.tabs',
+            component: tabsbulma,
             props: true,
         }
     ]
@@ -397,7 +635,17 @@ routes.push(routes_list);
 import UiPageLayouts from "./../layouts/Ui";
 
 import layoutv1 from "./../vaahnuxt/page-layouts/pages/layout-v1";
-
+import loginform from "./../vaahnuxt/page-layouts/pages/login-form";
+import formpagev1 from "./../vaahnuxt/page-layouts/pages/form-page-v1";
+import formpagev2 from "./../vaahnuxt/page-layouts/pages/form-page-v2";
+import formpagev3 from "./../vaahnuxt/page-layouts/pages/form-page-v3";
+import formpagev4 from "./../vaahnuxt/page-layouts/pages/form-page-v4";
+import crmpage from "./../vaahnuxt/page-layouts/pages/crm-page";
+import pointofsalepage from "./../vaahnuxt/page-layouts/pages/point-of-sale-page";
+import applistviewsmall from "./../vaahnuxt/page-layouts/pages/app-list-view-small";
+import postpage from "./../vaahnuxt/page-layouts/pages/post-page";
+import postdetailsv1 from "./../vaahnuxt/page-layouts/pages/post-details-v1";
+import postdetailsv2 from "./../vaahnuxt/page-layouts/pages/post-details-v2";
 
 
 routes_list =     {
@@ -409,6 +657,78 @@ routes_list =     {
             path: '/',
             name: 'pagelayouts.layoutv1',
             component: layoutv1,
+            props: true,
+        },
+        {
+            path: 'layout-v1',
+            name: 'pagelayouts.layoutv1',
+            component: layoutv1,
+            props: true,
+        },
+        {
+            path: 'login-form',
+            name: 'pagelayouts.loginform',
+            component: loginform,
+            props: true,
+        },
+        {
+            path: 'form-page-v1',
+            name: 'pagelayouts.formpagev1',
+            component: formpagev1,
+            props: true,
+        },
+        {
+            path: 'form-page-v2',
+            name: 'pagelayouts.formpagev2',
+            component: formpagev2,
+            props: true,
+        },
+        {
+            path: 'form-page-v3',
+            name: 'pagelayouts.formpagev3',
+            component: formpagev3,
+            props: true,
+        },
+        {
+            path: 'form-page-v4',
+            name: 'pagelayouts.formpagev4',
+            component: formpagev4,
+            props: true,
+        },
+        {
+            path: 'crm-page',
+            name: 'pagelayouts.crmpage',
+            component: crmpage,
+            props: true,
+        },
+        {
+            path: 'point-of-sale-page',
+            name: 'pagelayouts.pointofsalepage',
+            component: pointofsalepage,
+            props: true,
+        },
+        {
+            path: 'app-list-view-small',
+            name: 'pagelayouts.applistviewsmall',
+            component: applistviewsmall,
+            props: true,
+        },
+        {
+            path: 'post-page',
+            name: 'pagelayouts.postpage',
+            component: postpage,
+            props: true,
+        },
+        {
+            path: 'post-details-v1',
+            name: 'pagelayouts.postdetailsv1',
+            component: postdetailsv1,
+            props: true,
+        },
+        {
+            path: 'post-details-v2',
+            name: 'pagelayouts.postdetailsv2',
+            component: postdetailsv2,
             props: true,
         }
     ]
@@ -429,6 +749,23 @@ routes.push(routes_list);
 import UiBlocks from "./../layouts/Ui";
 
 import IndexBlocks from "./../vaahnuxt/blocks/pages/index";
+import others from "./../vaahnuxt/blocks/pages/others";
+import cards from "./../vaahnuxt/blocks/pages/cards";
+import cardstwo from "./../vaahnuxt/blocks/pages/cards-two";
+import pricing from "./../vaahnuxt/blocks/pages/pricing";
+import tabsblocks from "./../vaahnuxt/blocks/pages/tabs";
+import calltoactions from "./../vaahnuxt/blocks/pages/calltoactions";
+import forms from "./../vaahnuxt/blocks/pages/forms";
+import blogs from "./../vaahnuxt/blocks/pages/blogs";
+import clientele from "./../vaahnuxt/blocks/pages/clientele";
+import faq from "./../vaahnuxt/blocks/pages/faq";
+import list from "./../vaahnuxt/blocks/pages/list";
+import testimonials from "./../vaahnuxt/blocks/pages/testimonials";
+import counter from "./../vaahnuxt/blocks/pages/counter";
+import process from "./../vaahnuxt/blocks/pages/process";
+import team from "./../vaahnuxt/blocks/pages/team";
+import portfolio from "./../vaahnuxt/blocks/pages/portfolio";
+import banner from "./../vaahnuxt/blocks/pages/banner";
 import cheatsheet from "./../vaahnuxt/blocks/pages/cheatsheet";
 
 
@@ -442,6 +779,108 @@ routes_list =     {
             path: '/',
             name: 'blocks.indexblocks',
             component: IndexBlocks,
+            props: true,
+        },
+        {
+            path: 'others',
+            name: 'blocks.others',
+            component: others,
+            props: true,
+        },
+        {
+            path: 'cards',
+            name: 'blocks.cards',
+            component: cards,
+            props: true,
+        },
+        {
+            path: 'cards-two',
+            name: 'blocks.cardstwo',
+            component: cardstwo,
+            props: true,
+        },
+        {
+            path: 'banner',
+            name: 'blocks.banner',
+            component: banner,
+            props: true,
+        },
+        {
+            path: 'pricing',
+            name: 'blocks.pricing',
+            component: pricing,
+            props: true,
+        },
+        {
+            path: 'tabs',
+            name: 'blocks.tabs',
+            component: tabsblocks,
+            props: true,
+        },
+        {
+            path: 'calltoactions',
+            name: 'blocks.calltoactions',
+            component: calltoactions,
+            props: true,
+        },
+        {
+            path: 'forms',
+            name: 'blocks.forms',
+            component: forms,
+            props: true,
+        },
+        {
+            path: 'blogs',
+            name: 'blocks.blogs',
+            component: blogs,
+            props: true,
+        },
+        {
+            path: 'clientele',
+            name: 'blocks.clientele',
+            component: clientele,
+            props: true,
+        },
+        {
+            path: 'faq',
+            name: 'blocks.faq',
+            component: faq,
+            props: true,
+        },
+        {
+            path: 'list',
+            name: 'blocks.list',
+            component: list,
+            props: true,
+        },
+        {
+            path: 'testimonials',
+            name: 'blocks.testimonials',
+            component: testimonials,
+            props: true,
+        },
+        {
+            path: 'counter',
+            name: 'blocks.counter',
+            component: counter,
+            props: true,
+        },
+        {
+            path: 'process',
+            name: 'blocks.process',
+            component: process,
+            props: true,
+        },
+        {
+            path: 'team',
+            name: 'blocks.team',
+            component: team,
+            props: true,
+        },
+        {
+            path: 'portfolio',
+            name: 'blocks.portfolio',
+            component: portfolio,
             props: true,
         },
         {
