@@ -429,6 +429,7 @@ routes.push(routes_list);
 import UiBlocks from "./../layouts/Ui";
 
 import IndexBlocks from "./../vaahnuxt/blocks/pages/index";
+import cheatsheet from "./../vaahnuxt/blocks/pages/cheatsheet";
 
 
 
@@ -441,6 +442,12 @@ routes_list =     {
             path: '/',
             name: 'blocks.indexblocks',
             component: IndexBlocks,
+            props: true,
+        },
+        {
+            path: 'cheatsheet',
+            name: 'blocks.cheatsheet',
+            component: cheatsheet,
             props: true,
         }
     ]

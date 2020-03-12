@@ -28,6 +28,9 @@
                 <b-navbar-item tag="router-link" :to="{ name: 'blocks.indexblocks' }">
                     Blocks
                 </b-navbar-item>
+                <b-navbar-item tag="router-link" :to="{ name: 'blocks.cheatsheet' }">
+                    Cheat Sheet
+                </b-navbar-item>
                 <b-navbar-dropdown label="Ui Guide">
                     <b-navbar-item tag="router-link" :to="{ name: 'bue.index' }">
                         Buefy
@@ -37,6 +40,16 @@
                     </b-navbar-item>
                     <b-navbar-item tag="router-link" :to="{ name: 'docs.index' }">
                         Docs
+                    </b-navbar-item>
+                    <hr class="navbar-divider">
+                    <b-navbar-item tag="router-link" :to="{ name: 'blocks.indexblocks' }">
+                        Blocks
+                    </b-navbar-item>
+                    <b-navbar-item tag="router-link" :to="{ name: 'pagelayouts.layoutv1' }">
+                        Page Layouts
+                    </b-navbar-item>
+                    <b-navbar-item tag="router-link" :to="{ name: 'blocks.cheatsheet' }">
+                        Cheat Sheet
                     </b-navbar-item>
                 </b-navbar-dropdown>
             </template>

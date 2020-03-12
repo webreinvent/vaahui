@@ -12,7 +12,7 @@ import content from "../../content/cheatsheet";
 
 import SectionCode from '../../resuable/SectionCode';
 import SectionTitle from "../../resuable/SectionTitle";
-import Table from "../../../pages/ui/bulma/elements/table";
+import Table from "../../bulma/pages/elements/table";
 
 import TemplateRow from '!raw-loader!../../content/html/TemplateRow.html'
 import TemplateRowFullWidth from '!raw-loader!../../content/html/TemplateRowFullWidth.html'
