@@ -89,19 +89,26 @@
               <h2 class="title">Payment</h2>
             </div>
             <div class="text">
-              <div class="columns is-flex-mobile">
-                <div class="column is-6-desktop is-6-mobile">
+
+              <div class="level">
+                <div class="level-left">
                   <p>Total Products</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <p class="has-text-right">10</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile">
+              </div>
+
+              <div class="level">
+                <div class="level-left">
                   <p>Total Amount</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <p class="has-text-right">$2,275.00</p>
                 </div>
+              </div>
+
+              <div class="columns is-flex-mobile">
                 <div class="column is-12-desktop is-12-mobile">
                   <div class="field">
                     <b-radio
