@@ -1,7 +1,10 @@
 <template>
   <div>
     <span class="icon has-text-info">
-      <i class="fas fa-home"></i>
+
+         <font-awesome-icon icon="home" />
+
+      <i class="fas fa-home"></i>   
     </span>
         <span class="icon has-text-success">
       <i class="fas fa-home"></i>
