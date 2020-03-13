@@ -36,6 +36,39 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="columns">
+              <div class="column is-6">
+                <div class="field has-addons">
+                  <p class="control">
+                    <b-dropdown aria-role="list">
+                      <button class="button" slot="trigger">
+                        <span>Bulk Actions</span>
+                        <b-icon icon="menu-down"></b-icon>
+                      </button>
+
+                      <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
+                      <b-dropdown-item aria-role="listitem">Update</b-dropdown-item>
+                      <b-dropdown-item aria-role="listitem">Delete</b-dropdown-item>
+                    </b-dropdown>
+                  </p>
+                  <p class="control">
+                    <a class="button has-background-light">
+                      Apply
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="column is-6">
+                <b-field class="control">
+                  <b-input placeholder="Search..."
+                           type="search"
+                           icon="magnify">
+                  </b-input>
+                </b-field>
+              </div>
+            </div>
+            <div class="columns">
               <div class="column is-12">
                 <ul class="is-pulled-right">
                   <li class="is-inline-block">
@@ -78,42 +111,16 @@
                   </li>
                 </ul>
               </div>
-              <div class="column is-6">
-                <div class="field has-addons">
-                  <p class="control">
-                    <b-dropdown aria-role="list">
-                      <button class="button" slot="trigger">
-                        <span>Bulk Actions</span>
-                        <b-icon icon="menu-down"></b-icon>
-                      </button>
+            </div>
 
-                      <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
-                      <b-dropdown-item aria-role="listitem">Update</b-dropdown-item>
-                      <b-dropdown-item aria-role="listitem">Delete</b-dropdown-item>
-                    </b-dropdown>
-                  </p>
-                  <p class="control">
-                    <a class="button has-background-light">
-                      Apply
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div class="column is-6">
-                <b-field class="control">
-                  <b-input placeholder="Search..."
-                           type="search"
-                           icon="magnify">
-                  </b-input>
-                </b-field>
-              </div>
+            <div class="columns">
               <div class="column is-12">
                 <b-table
-                  :data="data"
-                  :columns="columns"
-                  class="control"
-                  checkable
-                  :checkbox-position="checkboxPosition">
+                        :data="data"
+                        :columns="columns"
+                        class="control"
+                        checkable
+                        :checkbox-position="checkboxPosition">
                 </b-table>
               </div>
             </div>
@@ -157,12 +164,14 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="columns">
               <div class="column is-12">
                 <b-table
-                  class="is-full-width"
-                  :striped="true"
-                  :data="dataForm"
-                  :mobile-cards="true">
+                        class="is-full-width"
+                        :striped="true"
+                        :data="dataForm"
+                        :mobile-cards="true">
 
                   <template slot-scope="props">
 
@@ -176,10 +185,10 @@
                   </template>
                 </b-table>
                 <b-table
-                  class="is-full-width"
-                  :striped="true"
-                  :data="dataForm"
-                  :mobile-cards="true">
+                        class="is-full-width"
+                        :striped="true"
+                        :data="dataForm"
+                        :mobile-cards="true">
 
                   <template slot-scope="props">
 
