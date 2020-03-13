@@ -48,6 +48,8 @@
                     Apply Filter
                   </button>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-10">
                   <div class="content">
                     <h3 class="is-bottom-marginless">Status</h3>
@@ -56,6 +58,8 @@
                 <div class="column is-2 has-text-right">
                   <b-tag class="is-pulled-right" rounded>6</b-tag>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-12">
                   <div class="field">
                     <b-checkbox>Pending</b-checkbox>
@@ -76,6 +80,8 @@
                     <b-checkbox>Waiting</b-checkbox>
                   </div>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-10">
                   <div class="content">
                     <h3 class="is-bottom-marginless">Created By</h3>
@@ -84,7 +90,9 @@
                 <div class="column is-2 has-text-right">
                   <b-tag class="is-pulled-right" rounded>6</b-tag>
                 </div>
-                <div class="column is-12">
+              </div>
+              <div class="columns">
+                                <div class="column is-12">
                   <div class="field">
                     <b-checkbox>Pending</b-checkbox>
                   </div>
@@ -118,6 +126,8 @@
                     <p class="has-text-grey has-text-right">$1,245,214</p>
                   </div>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-7">
                   <div class="content">
                     <p class="has-text-grey"><span class="has-text-info">S-0032</span> |  16 sept, 2019</p>
@@ -142,6 +152,8 @@
                     <p class="has-text-grey has-text-right">$1,245,214</p>
                   </div>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-7">
                   <div class="content">
                     <p class="has-text-grey"><span class="has-text-info">S-0032</span> |  16 sept, 2019</p>
@@ -166,6 +178,8 @@
                     <p class="has-text-grey has-text-right">$1,245,214</p>
                   </div>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-7">
                   <div class="content">
                     <p class="has-text-grey"><span class="has-text-info">S-0032</span> |  16 sept, 2019</p>
@@ -190,6 +204,8 @@
                     <p class="has-text-grey has-text-right">$1,245,214</p>
                   </div>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-7">
                   <div class="content">
                     <p class="has-text-grey"><span class="has-text-info">S-0032</span> |  16 sept, 2019</p>
@@ -214,6 +230,8 @@
                     <p class="has-text-grey has-text-right">$1,245,214</p>
                   </div>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-7">
                   <div class="content">
                     <p class="has-text-grey"><span class="has-text-info">S-0032</span> |  16 sept, 2019</p>
@@ -282,6 +300,9 @@
                 </p>
               </div>
             </div>
+          </div>
+          <div class="columns">
+
             <div class="column is-12">
               <b-tabs>
                 <b-tab-item label="Form Elements">
@@ -370,7 +391,9 @@
                         <b-input maxlength="200" type="textarea"></b-input>
                       </b-field>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="form-table box has-margin-top-50">
                         <div class="content">
@@ -379,9 +402,9 @@
                         </div>
 
                         <b-table
-                          class="is-full-width"
-                          :data="data"
-                          :mobile-cards="true">
+                                class="is-full-width"
+                                :data="data"
+                                :mobile-cards="true">
 
                           <template slot-scope="props">
 
@@ -429,14 +452,14 @@
                             <b-table-column label="Amount">
                               <span class="tag is-rounded">
                                 <b-icon
-                                  icon="plus"
-                                  size="is-small">
+                                        icon="plus"
+                                        size="is-small">
                                 </b-icon>
                               </span>
                               <span class="tag is-rounded">
                                 <b-icon
-                                  icon="close"
-                                  size="is-small">
+                                        icon="close"
+                                        size="is-small">
                                 </b-icon>
                               </span>
                             </b-table-column>
@@ -445,8 +468,8 @@
 
                         <div class="content has-text-info has-margin-top-10">
                           <a class="has-text-info"><b-icon
-                            icon="plus"
-                            size="is-small">
+                                  icon="plus"
+                                  size="is-small">
                           </b-icon>Add another line</a>
                         </div>
 
@@ -468,6 +491,8 @@
                                   <p class="is-bottom-marginless">$5,750.00</p>
                                 </div>
                               </div>
+                            </div>
+                            <div class="columns">
                               <div class="column is-6">
                                 <div class="content">
                                   <p class="is-bottom-marginless">GST(5%)</p>
@@ -478,6 +503,8 @@
                                   <p class="is-bottom-marginless">$287.00</p>
                                 </div>
                               </div>
+                            </div>
+                            <div class="columns">
                               <div class="column is-6">
                                 <div class="content">
                                   <p class="is-bottom-marginless">Discount</p>
@@ -488,6 +515,8 @@
                                   <p class="is-bottom-marginless">-$50.00</p>
                                 </div>
                               </div>
+                            </div>
+                            <div class="columns">
                               <div class="column is-6">
                                 <div class="content">
                                   <p class="is-bottom-marginless"><b>Total Due</b></p>
@@ -503,7 +532,9 @@
                         </div>
                       </div>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="paid-faster box has-margin-top-50 is-full-width">
                         <div class="content">
@@ -535,6 +566,8 @@
                               <button class="button is-info is-full-width">Setup Now</button>
                             </div>
                           </div>
+                        </div>
+                        <div class="columns">
                           <div class="column is-3">
                             <div class="box">
                               <img src="https://via.placeholder.com/225x200">
@@ -562,7 +595,9 @@
                         </div>
                       </div>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="paid-faster box has-margin-top-50 is-full-width">
                         <div class="content">
@@ -594,6 +629,8 @@
                               <button class="button is-info is-full-width">Setup Now</button>
                             </div>
                           </div>
+                        </div>
+                        <div class="columns">
                           <div class="column is-3">
                             <div class="box">
                               <img src="https://via.placeholder.com/225x200">
@@ -621,7 +658,9 @@
                         </div>
                       </div>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="paid-faster box has-margin-top-50 is-full-width">
                         <div class="content">
@@ -653,9 +692,9 @@
                         </div>
 
                         <b-table
-                          class="is-full-width"
-                          :data="dataStatus"
-                          :mobile-cards="true">
+                                class="is-full-width"
+                                :data="dataStatus"
+                                :mobile-cards="true">
 
                           <template slot-scope="props">
 
@@ -683,7 +722,9 @@
 
                       </div>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-8">
                       <div class="content">
                         <h6>Notes</h6>
@@ -802,7 +843,7 @@
                           <div class="column is-6">
                             <div class="field">
                               <b-radio
-                                       native-value="default">
+                                      native-value="default">
                                 Full Payment
                               </b-radio>
                             </div>
@@ -872,7 +913,9 @@
                       </div>
                       <b-button type="is-info">Pay Now</b-button>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="box">
                         <div class="content">
@@ -916,7 +959,9 @@
                       </b-table>
                       </div>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="box">
                         <div class="columns">
@@ -940,6 +985,9 @@
                               </p>
                             </div>
                           </div>
+                        </div>
+                        <div class="columns">
+
                           <div class="column is-6">
                             <div class="content">
                               <h6>BILLED FROM</h6>
@@ -1106,7 +1154,9 @@
                         </div>
                       </div>
                     </div>
+                  </div>
 
+                  <div class="columns">
                     <div class="column is-12">
                       <div class="box">
                         <div class="columns">
@@ -1188,6 +1238,7 @@
                       </div>
                     </div>
                   </div>
+
                 </b-tab-item>
                 <b-tab-item label="Tab #2">
                 </b-tab-item>

@@ -89,19 +89,25 @@
               <h2 class="title">Payment</h2>
             </div>
             <div class="text">
-              <div class="columns is-flex-mobile">
-                <div class="column is-6-desktop is-6-mobile">
+
+              <div class="level">
+                <div class="level-left">
                   <p>Total Products</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <p class="has-text-right">10</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile">
+              </div>
+
+              <div class="level">
+                <div class="level-left">
                   <p>Total Amount</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <p class="has-text-right">$2,275.00</p>
                 </div>
+              </div>
+              <div class="columns">
                 <div class="column is-12-desktop is-12-mobile">
                   <div class="field">
                     <b-radio
@@ -117,27 +123,38 @@
                   </div>
                   <button class="button is-info">Make Payment</button>
                 </div>
+              </div>
 
-                <div class="column is-6-desktop is-6-mobile">
+              <div class="level">
+                <div class="level-left">
                   <p><b>Payable Amount</b></p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <p class="has-text-right"><b>$2,275.00</b></p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile">
+              </div>
+
+              <div class="level">
+                <div class="level-left">
                   <p>Collected Amount</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <b-field label="">
                     <b-input placeholder="$2,254.00"></b-input>
                   </b-field>
                 </div>
-                <div class="column is-6-desktop is-6-mobile">
+              </div>
+
+              <div class="level">
+                <div class="level-left">
                   <p>Returning Amount</p>
                 </div>
-                <div class="column is-6-desktop is-6-mobile has-text-right">
+                <div class="level-right has-text-right">
                   <p class="has-text-right"><b>$275.00</b></p>
                 </div>
+              </div>
+
+              <div class="columns">
                 <div class="column is-12-desktop is-12-mobile">
                   <button class="button is-success is-full-width">Mark this order as complete</button>
                 </div>

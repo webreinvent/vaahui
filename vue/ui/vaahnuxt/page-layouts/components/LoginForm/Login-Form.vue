@@ -50,13 +50,14 @@
                 <li class="is-inline-block has-background-primary has-padding-10 is-rounded has-margin-right-20">
                   <a href="#">
                     <b-icon
-                      icon="facebook"
+                      icon="twitter"
                       size="is-medium" class="has-text-white">
                     </b-icon>
                   </a>
                 </li>
                 <li class="is-inline-block has-background-info has-padding-10 is-rounded has-margin-right-20">
                   <a href="#">
+                    <font-awesome-icon icon="twitter" />
                     <b-icon
                       icon="twitter"
                       size="is-medium" class="has-text-white">

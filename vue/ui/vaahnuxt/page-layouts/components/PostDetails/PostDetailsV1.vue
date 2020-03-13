@@ -3,20 +3,21 @@
 
     <div class="container">
       <div class="top-header">
-        <div class="columns">
 
+        <div class="columns">
           <div class="column is-6">
             <div class="content  is-bottom-marginless">
               <h2 class="title  is-bottom-marginless">Edit Posts</h2>
             </div>
           </div>
-
           <div class="column is-6">
             <div class="btn  is-pulled-right is-full-width-mobile">
               <button class="button is-full-width-mobile">+ Add New</button>
             </div>
           </div>
+        </div>
 
+        <div class="columns">
           <div class="column is-8">
             <div class="is-full-width">
               <b-field>
@@ -27,9 +28,9 @@
             <div class="has-margin-top-15">
               <span><b>Permalink: </b><a href="https://demo.nuxt.vaah.dev/ui/page-layouts/layout-v1">
                 https://demo.nuxt.vaah.dev/ui/page-layouts/layout-v1</a> <a href="#"><b-icon
-                class="has-text-dark"
-                icon="pencil"
-                size="is-small">
+                      class="has-text-dark"
+                      icon="pencil"
+                      size="is-small">
               </b-icon>Edit</a></span>
             </div>
 
@@ -49,9 +50,9 @@
 
             <div class="btn has-margin-top-10">
               <button class="button"><b-icon
-                icon="camera"
-                size="is-small"
-                class="has-margin-right-5">
+                      icon="camera"
+                      size="is-small"
+                      class="has-margin-right-5">
               </b-icon>Add Media</button>
             </div>
 
@@ -88,21 +89,21 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
+                  <div class="content">
                     <b-field label="First Name">
                       <b-input placeholder="First Name"></b-input>
                     </b-field>
@@ -117,21 +118,21 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
+                  <div class="content">
                     <b-field label="Message">
                       <b-input placeholder="Message" type="textarea"></b-input>
                     </b-field>
@@ -146,34 +147,34 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <div class="block">
-                       <b-radio
-                                name="Male"
-                                native-value="Male">
-                         Male
-                       </b-radio>
-                       <b-radio
-                                name="Female"
-                                native-value="Female">
-                         Female
-                       </b-radio>
-                     </div>
-                   </div>
+                  <div class="content">
+                    <div class="block">
+                      <b-radio
+                              name="Male"
+                              native-value="Male">
+                        Male
+                      </b-radio>
+                      <b-radio
+                              name="Female"
+                              native-value="Female">
+                        Female
+                      </b-radio>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -184,25 +185,25 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <div class="field">
-                       <b-checkbox>I agree to following <a>Terms & Conditions.</a></b-checkbox>
-                     </div>
-                   </div>
+                  <div class="content">
+                    <div class="field">
+                      <b-checkbox>I agree to following <a>Terms & Conditions.</a></b-checkbox>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -213,23 +214,23 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-rate custom-text="Custom Text Goes Here"></b-rate>
-                   </div>
+                  <div class="content">
+                    <b-rate custom-text="Custom Text Goes Here"></b-rate>
+                  </div>
                 </div>
               </div>
 
@@ -240,26 +241,26 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field>
-                       <b-slider :min="50" :max="15000" :step="1">
-                       </b-slider>
-                     </b-field>
-                   </div>
+                  <div class="content">
+                    <b-field>
+                      <b-slider :min="50" :max="15000" :step="1">
+                      </b-slider>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
@@ -270,33 +271,33 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field class="file">
-                       <b-upload v-model="file">
-                         <a class="button is-primary">
-                           <b-icon icon="upload"></b-icon>
-                           <span>Click to upload</span>
-                         </a>
-                       </b-upload>
-                       <span class="file-name" v-if="file">
+                  <div class="content">
+                    <b-field class="file">
+                      <b-upload v-model="file">
+                        <a class="button is-primary">
+                          <b-icon icon="upload"></b-icon>
+                          <span>Click to upload</span>
+                        </a>
+                      </b-upload>
+                      <span class="file-name" v-if="file">
                             {{ file.name }}
                        </span>
-                     </b-field>
-                   </div>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
@@ -307,25 +308,25 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <div class="field">
-                       <b-switch>Default</b-switch>
-                     </div>
-                   </div>
+                  <div class="content">
+                    <div class="field">
+                      <b-switch>Default</b-switch>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -336,33 +337,33 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field label="Find a JS framework">
-                       <b-autocomplete
-                         rounded
-                         v-model="name"
-                         :data="filteredDataArray"
-                         placeholder="e.g. jQuery"
-                         icon="magnify"
-                         @select="option => selected = option">
-                         <template slot="empty">No results found</template>
-                       </b-autocomplete>
-                     </b-field>
-                   </div>
+                  <div class="content">
+                    <b-field label="Find a JS framework">
+                      <b-autocomplete
+                              rounded
+                              v-model="name"
+                              :data="filteredDataArray"
+                              placeholder="e.g. jQuery"
+                              icon="magnify"
+                              @select="option => selected = option">
+                        <template slot="empty">No results found</template>
+                      </b-autocomplete>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
@@ -373,30 +374,30 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field label="Add some tags">
-                       <b-taginput
-                         v-model="tags"
-                         ellipsis
-                         icon="label"
-                         placeholder="Add a tag">
-                       </b-taginput>
-                     </b-field>
-                   </div>
+                  <div class="content">
+                    <b-field label="Add some tags">
+                      <b-taginput
+                              v-model="tags"
+                              ellipsis
+                              icon="label"
+                              placeholder="Add a tag">
+                      </b-taginput>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
@@ -407,32 +408,32 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field label="Select a author">
-                       <b-select placeholder="Select a author">
-                         <option
-                           v-for="option in data"
-                           :value="option.id"
-                           :key="option.id">
-                           {{ option.author }}
-                         </option>
-                       </b-select>
-                     </b-field>
-                   </div>
+                  <div class="content">
+                    <b-field label="Select a author">
+                      <b-select placeholder="Select a author">
+                        <option
+                                v-for="option in data"
+                                :value="option.id"
+                                :key="option.id">
+                          {{ option.author }}
+                        </option>
+                      </b-select>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
@@ -443,31 +444,31 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field label="Select Due Date">
-                       <b-datetimepicker
-                         rounded
-                         placeholder="Click to select..."
-                         icon="calendar-today"
-                         :datepicker="false"
-                         :timepicker="false">
-                       </b-datetimepicker>
-                     </b-field>
-                   </div>
+                  <div class="content">
+                    <b-field label="Select Due Date">
+                      <b-datetimepicker
+                              rounded
+                              placeholder="Click to select..."
+                              icon="calendar-today"
+                              :datepicker="false"
+                              :timepicker="false">
+                      </b-datetimepicker>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
@@ -478,55 +479,55 @@
                   <span class="is-pulled-right">
                     <a href="#">
                       <b-icon
-                      icon="align-justify"
-                      size="is-small"
-                    >
+                              icon="align-justify"
+                              size="is-small"
+                      >
                     </b-icon>
                     </a>
                     <a>
                       <b-icon
-                      icon="menu-down">
+                              icon="menu-down">
                     </b-icon>
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
                 </div>
                 <div class="has-padding-right-20 has-padding-left-20 has-padding-bottom-20 has-background-white">
-                   <div class="content">
-                     <b-field>
-                       <b-select placeholder="Currency">
-                         <option>$</option>
-                         <option>£</option>
-                         <option>€</option>
-                       </b-select>
-                       <b-input type="number" placeholder="0,00"></b-input>
-                       <p class="control">
-                         <button class="button is-success">Transfer</button>
-                       </p>
-                     </b-field>
-                   </div>
+                  <div class="content">
+                    <b-field>
+                      <b-select placeholder="Currency">
+                        <option>$</option>
+                        <option>£</option>
+                        <option>€</option>
+                      </b-select>
+                      <b-input type="number" placeholder="0,00"></b-input>
+                      <p class="control">
+                        <button class="button is-success">Transfer</button>
+                      </p>
+                    </b-field>
+                  </div>
                 </div>
               </div>
 
             </div>
 
             <b-collapse
-              class="card has-margin-top-15"
-              v-for="(collapse, index) of collapses"
-              :key="index"
-              :open="isOpen == index"
-              @open="isOpen = index">
+                    class="card has-margin-top-15"
+                    v-for="(collapse, index) of collapses"
+                    :key="index"
+                    :open="isOpen == index"
+                    @open="isOpen = index">
               <div
-                slot="trigger"
-                slot-scope="props"
-                class="card-header"
-                role="button">
+                      slot="trigger"
+                      slot-scope="props"
+                      class="card-header"
+                      role="button">
                 <p class="card-header-title">
                   {{ collapse.title }}
                 </p>
                 <a class="card-header-icon">
                   <b-icon
-                    :icon="props.open ? 'menu-down' : 'menu-up'">
+                          :icon="props.open ? 'menu-down' : 'menu-up'">
                   </b-icon>
                 </a>
               </div>
@@ -546,22 +547,21 @@
             </b-collapse>
 
           </div>
-
           <div class="column is-4">
 
             <b-collapse
-              class="card">
+                    class="card">
               <div
-                slot="trigger"
-                slot-scope="props"
-                class="card-header"
-                role="button">
+                      slot="trigger"
+                      slot-scope="props"
+                      class="card-header"
+                      role="button">
                 <p class="card-header-title">
                   Publish
                 </p>
                 <a class="card-header-icon">
                   <b-icon
-                    :icon="props.open ? 'menu-down' : 'menu-up'">
+                          :icon="props.open ? 'menu-down' : 'menu-up'">
                   </b-icon>
                 </a>
               </div>
@@ -627,11 +627,11 @@
                     </p>
                     <b-field label="Select datetime">
                       <b-datetimepicker
-                        rounded
-                        placeholder="Click to select..."
-                        icon="calendar-today"
-                        :datepicker="false"
-                        :timepicker="false">
+                              rounded
+                              placeholder="Click to select..."
+                              icon="calendar-today"
+                              :datepicker="false"
+                              :timepicker="false">
                       </b-datetimepicker>
                     </b-field>
                   </div>
@@ -650,18 +650,18 @@
             </b-collapse>
 
             <b-collapse
-              class="card has-margin-top-40">
+                    class="card has-margin-top-40">
               <div
-                slot="trigger"
-                slot-scope="props"
-                class="card-header"
-                role="button">
+                      slot="trigger"
+                      slot-scope="props"
+                      class="card-header"
+                      role="button">
                 <p class="card-header-title">
                   Page Attributes
                 </p>
                 <a class="card-header-icon">
                   <b-icon
-                    :icon="props.open ? 'menu-down' : 'menu-up'">
+                          :icon="props.open ? 'menu-down' : 'menu-up'">
                   </b-icon>
                 </a>
               </div>
@@ -686,18 +686,18 @@
             </b-collapse>
 
             <b-collapse
-              class="card has-margin-top-40">
+                    class="card has-margin-top-40">
               <div
-                slot="trigger"
-                slot-scope="props"
-                class="card-header"
-                role="button">
+                      slot="trigger"
+                      slot-scope="props"
+                      class="card-header"
+                      role="button">
                 <p class="card-header-title">
                   Feature Image
                 </p>
                 <a class="card-header-icon">
                   <b-icon
-                    :icon="props.open ? 'menu-down' : 'menu-up'">
+                          :icon="props.open ? 'menu-down' : 'menu-up'">
                   </b-icon>
                 </a>
               </div>
@@ -720,6 +720,7 @@
             </b-collapse>
           </div>
         </div>
+
       </div>
     </div>
 

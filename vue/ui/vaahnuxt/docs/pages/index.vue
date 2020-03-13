@@ -14,8 +14,6 @@
 
             <section class="section">
 
-            <div class="columns is-mobile">
-
 
               <SectionCode name="ElementMenu" id="elementmenu"
                            :file_path="'start/test.php'"
@@ -76,9 +74,6 @@
               <SectionCode name="ElementNine" id="elementnine" :code="ElementV9Code">
                 <ElementV9></ElementV9>
               </SectionCode>
-
-
-            </div>
           </section>
         </div>
       </section>

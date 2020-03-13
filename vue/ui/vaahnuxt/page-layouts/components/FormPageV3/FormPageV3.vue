@@ -60,6 +60,8 @@
                       <b>This may take a while <u>Keep Calm!</u></b>
                     </b-message>
                   </div>
+                </div>
+                <div class="columns">
                   <div class="column is-6">
                     <div class="box has-background-white has-text-left">
                       <div class="field">

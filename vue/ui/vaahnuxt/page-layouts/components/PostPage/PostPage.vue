@@ -87,16 +87,20 @@
               </li>
             </ul>
           </div>
+        </div>
+        <div class="columns">
           <div class="column is-12">
             <b-table
-              :data="data"
-              :columns="columns"
-              class="control"
-              checkable
-              :checkbox-position="checkboxPosition">
+                    :data="data"
+                    :columns="columns"
+                    class="control"
+                    checkable
+                    :checkbox-position="checkboxPosition">
 
             </b-table>
           </div>
+        </div>
+        <div class="columns">
           <div class="column is-4">
             <div class="field has-addons">
               <div class="control">
@@ -119,14 +123,14 @@
           </div>
           <div class="column is-6">
             <b-pagination
-              total="200"
-              range-before="3"
-              range-after="1"
-              order="default"
-              size="default"
-              per-page="10"
-              aria-page-label="Page"
-              aria-current-label="Current page">
+                    total="200"
+                    range-before="3"
+                    range-after="1"
+                    order="default"
+                    size="default"
+                    per-page="10"
+                    aria-page-label="Page"
+                    aria-current-label="Current page">
             </b-pagination>
           </div>
           <div class="column is-2 has-text-right">
