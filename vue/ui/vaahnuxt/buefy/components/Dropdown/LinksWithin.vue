@@ -19,7 +19,7 @@
             slot="trigger"
             role="button">
             <span>Menu</span>
-            <b-icon icon="menu-down"></b-icon>
+            <font-awesome-icon icon="chevron-down" />
           </a>
 
           <b-dropdown-item custom aria-role="menuitem">

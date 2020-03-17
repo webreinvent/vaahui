@@ -250,7 +250,7 @@
                   <b-dropdown aria-role="list">
                     <button class="button" slot="trigger">
                       <span>10</span>
-                      <b-icon icon="menu-down"></b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>

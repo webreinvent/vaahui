@@ -15,23 +15,17 @@
                 <div class="field has-addons is-pulled-right">
                   <p class="control">
                     <a class="button has-background-light">
-                      + Add New
+                      <font-awesome-icon icon="plus" /> Add New
                     </a>
                   </p>
                   <p class="control">
                     <a class="button has-background-light">
-                      <b-icon
-                        icon="dots-horizontal"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="ellipsis-h" />
                     </a>
                   </p>
                   <p class="control">
                     <a class="button has-background-light">
-                      <b-icon
-                        icon="reload"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="sync-alt" />
                     </a>
                   </p>
                 </div>
@@ -44,7 +38,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>Bulk Actions</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -75,7 +69,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>All Dates</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -86,7 +80,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>All Categories</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -97,7 +91,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>All Formats</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -138,28 +132,18 @@
                 <div class="field has-addons is-pulled-right">
                   <p class="control">
                     <a class="button has-background-light">
-                      <b-icon
-                        icon="check"
-                         class="has-margin-right-10"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="check" />
                      Save
                     </a>
                   </p>
                   <p class="control">
                     <a class="button has-background-light">
-                      <b-icon
-                        icon="pencil"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="edit" />
                     </a>
                   </p>
                   <p class="control">
                     <a class="button has-background-light">
-                      <b-icon
-                        icon="dots-vertical"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="ellipsis-v" />
                     </a>
                   </p>
                 </div>

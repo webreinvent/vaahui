@@ -537,7 +537,7 @@
                   <b-dropdown aria-role="list">
                     <button class="button" slot="trigger">
                       <span>Default</span>
-                      <b-icon icon="menu-down"></b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Default</b-dropdown-item>
@@ -589,7 +589,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>Published</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Unpublished</b-dropdown-item>
@@ -602,7 +602,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>Public</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Private</b-dropdown-item>
@@ -615,7 +615,7 @@
                     <b-dropdown aria-role="list">
                       <button class="button" slot="trigger">
                         <span>17</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <font-awesome-icon icon="chevron-down" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">11</b-dropdown-item>
@@ -671,7 +671,7 @@
                   <b-dropdown aria-role="list">
                     <button class="button" slot="trigger">
                       <span>Default Template</span>
-                      <b-icon icon="menu-down"></b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Default Template</b-dropdown-item>

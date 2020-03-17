@@ -20,7 +20,7 @@
                 <b-dropdown aria-role="list">
                   <button class="button" slot="trigger">
                     <span>Bulk Actions</span>
-                    <b-icon icon="menu-down"></b-icon>
+                    <font-awesome-icon icon="chevron-down" />
                   </button>
 
                   <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -51,7 +51,7 @@
                 <b-dropdown aria-role="list">
                   <button class="button" slot="trigger">
                     <span>All Dates</span>
-                    <b-icon icon="menu-down"></b-icon>
+                    <font-awesome-icon icon="chevron-down" />
                   </button>
 
                   <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -62,7 +62,7 @@
                 <b-dropdown aria-role="list">
                   <button class="button" slot="trigger">
                     <span>All Categories</span>
-                    <b-icon icon="menu-down"></b-icon>
+                    <font-awesome-icon icon="chevron-down" />
                   </button>
 
                   <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -73,7 +73,7 @@
                 <b-dropdown aria-role="list">
                   <button class="button" slot="trigger">
                     <span>All Formats</span>
-                    <b-icon icon="menu-down"></b-icon>
+                    <font-awesome-icon icon="chevron-down" />
                   </button>
 
                   <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>
@@ -107,7 +107,7 @@
                 <b-dropdown aria-role="list">
                   <button class="button" slot="trigger">
                     <span>Bulk Actions</span>
-                    <b-icon icon="menu-down"></b-icon>
+                    <font-awesome-icon icon="chevron-down" />
                   </button>
 
                   <b-dropdown-item aria-role="listitem">Edit</b-dropdown-item>

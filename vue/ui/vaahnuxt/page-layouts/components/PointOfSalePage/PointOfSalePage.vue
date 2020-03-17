@@ -185,7 +185,7 @@
                                   size="is-small">
                           </b-icon>
                           <span>Sort by Name A-Z</span>
-                          <b-icon icon="menu-down"></b-icon>
+                          <font-awesome-icon icon="chevron-down" />
                         </button>
 
                         <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -437,7 +437,7 @@
                                   size="is-small">
                           </b-icon>
                           <span>Sort by Name A-Z</span>
-                          <b-icon icon="menu-down"></b-icon>
+                          <font-awesome-icon icon="chevron-down" />
                         </button>
 
                         <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -689,7 +689,7 @@
                                   size="is-small">
                           </b-icon>
                           <span>Sort by Name A-Z</span>
-                          <b-icon icon="menu-down"></b-icon>
+                          <font-awesome-icon icon="chevron-down" />
                         </button>
 
                         <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -941,7 +941,7 @@
                                   size="is-small">
                           </b-icon>
                           <span>Sort by Name A-Z</span>
-                          <b-icon icon="menu-down"></b-icon>
+                          <font-awesome-icon icon="chevron-down" />
                         </button>
 
                         <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>

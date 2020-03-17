@@ -7,7 +7,7 @@
       aria-role="list">
       <button class="button is-primary" type="button" slot="trigger">
         <span>Selected ({{ selectedOptions.length }})</span>
-        <b-icon icon="menu-down"></b-icon>
+        <font-awesome-icon icon="chevron-down" />
       </button>
 
       <b-dropdown-item value="option1" aria-role="listitem">

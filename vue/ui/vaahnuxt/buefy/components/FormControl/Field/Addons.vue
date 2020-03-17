@@ -74,7 +74,7 @@
       <p class="control">
         <b-dropdown>
           <button class="button is-primary" slot="trigger">
-            <b-icon icon="menu-down"></b-icon>
+            <font-awesome-icon icon="chevron-down" />
           </button>
 
           <b-dropdown-item>Action</b-dropdown-item>
@@ -89,7 +89,7 @@
         <b-dropdown>
           <button class="button" slot="trigger">
             <span>Filters</span>
-            <b-icon icon="menu-down"></b-icon>
+            <font-awesome-icon icon="chevron-down" />
           </button>
 
           <b-dropdown-item value="open_issues">Open Issues and Pull Requests</b-dropdown-item>

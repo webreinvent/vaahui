@@ -3,7 +3,7 @@
     <b-dropdown aria-role="list">
       <button class="button is-primary" slot="trigger">
         <span>Click me!</span>
-        <b-icon icon="menu-down"></b-icon>
+        <font-awesome-icon icon="chevron-down" />
       </button>
 
       <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -14,7 +14,7 @@
     <b-dropdown hoverable aria-role="list">
       <button class="button is-info" slot="trigger">
         <span>Hover me!</span>
-        <b-icon icon="menu-down"></b-icon>
+        <font-awesome-icon icon="chevron-down" />
       </button>
 
       <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -25,7 +25,7 @@
     <b-dropdown disabled aria-role="list">
       <button class="button" slot="trigger">
         <span>Disabled</span>
-        <b-icon icon="menu-down"></b-icon>
+        <font-awesome-icon icon="chevron-down" />
       </button>
 
       <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>

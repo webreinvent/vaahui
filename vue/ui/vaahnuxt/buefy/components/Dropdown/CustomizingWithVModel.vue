@@ -9,7 +9,7 @@
         <b-icon icon="account-multiple"></b-icon>
         <span>Friends</span>
       </template>
-      <b-icon icon="menu-down"></b-icon>
+      <font-awesome-icon icon="chevron-down" />
     </button>
 
     <b-dropdown-item :value="true" aria-role="listitem">
