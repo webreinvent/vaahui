@@ -22,10 +22,7 @@
               <div class="column is-12">
                 <b-dropdown aria-role="list" class="is-full-width">
                   <button class="button has-background-light is-full-width" slot="trigger">
-                    <b-icon class="has-text-grey"
-                            icon="filter-variant"
-                            size="is-small">
-                    </b-icon>
+                    <font-awesome-icon icon="filter" class="has-text-grey"/>
                     <span>Sort by Name A-Z</span>
                     <font-awesome-icon icon="chevron-down" />
                   </button>
@@ -47,7 +44,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -79,7 +76,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -111,7 +108,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -143,7 +140,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -175,7 +172,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -207,7 +204,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>

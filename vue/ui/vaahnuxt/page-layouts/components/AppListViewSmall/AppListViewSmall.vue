@@ -14,13 +14,13 @@
                 <div class="field has-addons is-pulled-right">
                   <p class="control">
                     <a class="button has-background-grey-lighter">
-                      + Add Items
+                      <font-awesome-icon icon="plus" /> Add Items
                     </a>
                   </p>
                   <p class="control">
                     <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                       <button class="button has-background-grey-lighter is-full-width" slot="trigger">
-                        <b-icon icon="dots-vertical"></b-icon>
+                        <font-awesome-icon icon="ellipsis-v" />
                       </button>
 
                       <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -285,7 +285,7 @@
               <div class="field has-addons is-pulled-right">
                 <p class="control">
                   <a class="button has-background-grey-lighter">
-                    <b-icon icon="help"></b-icon>
+                    <font-awesome-icon icon="question" />
                   </a>
                 </p>
                 <p class="control">
@@ -295,7 +295,7 @@
                 </p>
                 <p class="control">
                   <a class="button has-background-grey-lighter">
-                    <b-icon icon="close"></b-icon>
+                    <font-awesome-icon icon="times" />
                   </a>
                 </p>
               </div>
@@ -321,7 +321,7 @@
                         <b-dropdown aria-role="list" class="is-full-width">
                           <button class="button is-full-width" slot="trigger">
                             <span class="has-margin-right-10">Select a Country</span>
-                            <b-icon icon="menu-down" class="has-background-light has-text-white"></b-icon>
+                            <font-awesome-icon icon="chevron-down" class="has-background-light has-text-white"/>
                           </button>
 
                           <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
@@ -379,7 +379,7 @@
                       <b-field class="file" >
                         <b-upload v-model="file">
                           <a class="button is-primary">
-                            <b-icon icon="upload"></b-icon>
+                            <font-awesome-icon icon="upload"/>
                             <span>Click to upload</span>
                           </a>
                         </b-upload>
@@ -451,26 +451,17 @@
 
                             <b-table-column label="Amount">
                               <span class="tag is-rounded">
-                                <b-icon
-                                        icon="plus"
-                                        size="is-small">
-                                </b-icon>
+                                <font-awesome-icon icon="plus"/>
                               </span>
                               <span class="tag is-rounded">
-                                <b-icon
-                                        icon="close"
-                                        size="is-small">
-                                </b-icon>
+                                <font-awesome-icon icon="times"/>
                               </span>
                             </b-table-column>
                           </template>
                         </b-table>
 
                         <div class="content has-text-info has-margin-top-10">
-                          <a class="has-text-info"><b-icon
-                                  icon="plus"
-                                  size="is-small">
-                          </b-icon>Add another line</a>
+                          <a class="has-text-info"><font-awesome-icon icon="plus"/>Add another line</a>
                         </div>
 
                         <div class="columns">
@@ -975,12 +966,12 @@
                             <div class="field has-addons is-pulled-right">
                               <p class="control">
                                 <a class="button has-background-grey-lighter">
-                                  <b-icon icon="download"></b-icon>
+                                  <font-awesome-icon icon="download"/>
                                 </a>
                               </p>
                               <p class="control has-width-100">
                                 <a class="button has-background-grey-lighter">
-                                  <b-icon icon="printer" class="has-margin-right-5"></b-icon> Print
+                                  <font-awesome-icon icon="print" class="has-margin-right-5"/> Print
                                 </a>
                               </p>
                             </div>
