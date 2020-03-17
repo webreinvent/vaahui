@@ -16,7 +16,7 @@
                   <b-dropdown aria-role="list" class="is-full-width is-pulled-right">
                     <button class="button has-background-light is-full-width" slot="trigger">
                       <span>#22</span>
-                      <b-icon icon="dots-vertical"></b-icon>
+                      <font-awesome-icon icon="ellipsis-v" class="has-margin-left-10 has-text-grey"/>
                     </button>
 
                     <b-dropdown-item aria-role="listitem">Action</b-dropdown-item>
