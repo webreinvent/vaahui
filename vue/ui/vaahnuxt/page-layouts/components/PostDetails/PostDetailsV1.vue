@@ -27,11 +27,8 @@
 
             <div class="has-margin-top-15">
               <span><b>Permalink: </b><a href="https://demo.nuxt.vaah.dev/ui/page-layouts/layout-v1">
-                https://demo.nuxt.vaah.dev/ui/page-layouts/layout-v1</a> <a href="#"><b-icon
-                      class="has-text-dark"
-                      icon="pencil"
-                      size="is-small">
-              </b-icon>Edit</a></span>
+                https://demo.nuxt.vaah.dev/ui/page-layouts/layout-v1</a> <a href="#"><font-awesome-icon icon="edit" />
+                Edit</a></span>
             </div>
 
             <div class="field has-addons has-margin-top-15">
@@ -88,16 +85,10 @@
                   <b-tag>first_name</b-tag>&nbsp;<b-tag>input</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -117,16 +108,10 @@
                   <b-tag>message</b-tag>&nbsp;<b-tag>textarea</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -146,16 +131,10 @@
                   <b-tag>gender</b-tag>&nbsp;<b-tag>radio_button</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -184,16 +163,10 @@
                   <b-tag>t&c</b-tag>&nbsp;<b-tag>checkbox</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -213,16 +186,10 @@
                   <b-tag>rating</b-tag>&nbsp;<b-tag>star_rating</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -240,16 +207,10 @@
                   <b-tag>price_filer</b-tag>&nbsp;<b-tag>range_slider</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -270,16 +231,10 @@
                   <b-tag>update_image</b-tag>&nbsp;<b-tag>file_upload</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -307,16 +262,10 @@
                   <b-tag>remember_me</b-tag>&nbsp;<b-tag>switch</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -336,16 +285,10 @@
                   <b-tag>search</b-tag>&nbsp;<b-tag>autocomplete</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -373,16 +316,10 @@
                   <b-tag>add_tags</b-tag>&nbsp;<b-tag>taginput</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -407,16 +344,10 @@
                   <b-tag>author</b-tag>&nbsp;<b-tag>select</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -443,16 +374,10 @@
                   <b-tag>due_date</b-tag>&nbsp;<b-tag>date_time_picker</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
@@ -478,16 +403,10 @@
                   <b-tag>currency</b-tag>&nbsp;<b-tag>field_addons</b-tag>
                   <span class="is-pulled-right">
                     <a href="#">
-                      <b-icon
-                              icon="align-justify"
-                              size="is-small"
-                      >
-                    </b-icon>
+                      <font-awesome-icon icon="copy" />
                     </a>
                     <a>
-                      <b-icon
-                              icon="menu-down">
-                    </b-icon>
+                      <font-awesome-icon icon="chevron-down" />
                     </a>
                   </span>
                   <hr class="has-margin-top-15 is-bottom-marginless">
