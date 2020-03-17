@@ -31,46 +31,31 @@
                         <li class="is-inline-block">
                           <b-tooltip label="Pipeline Passed"
                                      position="is-top">
-                            <b-icon
-                                    icon="check"
-                                    size="is-small">
-                            </b-icon>
+                            <font-awesome-icon icon="check" />
                           </b-tooltip>
                         </li>
                         <li class="is-inline-block">
                           <b-tooltip label="Stars"
                                      position="is-top">
-                            <b-icon
-                                    icon="star"
-                                    size="is-small">
-                            </b-icon>0
+                            <font-awesome-icon icon="star" />0
                           </b-tooltip>
                         </li>
                         <li class="is-inline-block">
                           <b-tooltip label="Forks"
                                      position="is-top">
-                            <b-icon
-                                    icon="source-fork"
-                                    size="is-small">
-                            </b-icon>10
+                            <font-awesome-icon icon="code-branch" />10
                           </b-tooltip>
                         </li>
                         <li class="is-inline-block">
                           <b-tooltip label="Merge Requests"
                                      position="is-top">
-                            <b-icon
-                                    icon="source-merge"
-                                    size="is-small">
-                            </b-icon>10
+                            <font-awesome-icon icon="link" />10
                           </b-tooltip>
                         </li>
                         <li class="is-inline-block">
                           <b-tooltip label="Issues"
                                      position="is-top">
-                            <b-icon
-                                    icon="align-justify"
-                                    size="is-small">
-                            </b-icon>10
+                            <font-awesome-icon icon="exclamation-circle" />10
                           </b-tooltip>
                         </li>
                       </ul>

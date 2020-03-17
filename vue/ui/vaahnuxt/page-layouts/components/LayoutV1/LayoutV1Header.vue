@@ -91,10 +91,7 @@
                   <a class="navbar-item">
                     <b-tooltip label="Analytics"
                                position="is-bottom">
-                      <b-icon
-                        icon="google-analytics"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="chart-bar" />
                     </b-tooltip>
 
                   </a>
@@ -105,10 +102,7 @@
                   <a class="navbar-item">
                     <b-tooltip label="New"
                                position="is-bottom">
-                      <b-icon
-                        icon="plus-box"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="plus-square" />
                     </b-tooltip>
                   </a>
 
@@ -121,39 +115,27 @@
                   <a class="navbar-item">
                     <b-tooltip label="Issues"
                                position="is-bottom">
-                      <b-icon
-                        icon="alert-circle-outline"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="exclamation-circle" />
                     </b-tooltip>
                   </a>
 
                   <a class="navbar-item">
                     <b-tooltip label="Merge Requests"
                                position="is-bottom">
-                      <b-icon
-                        icon="view-dashboard"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="th-large" />
                     </b-tooltip>
                   </a>
 
                   <a class="navbar-item">
                     <b-tooltip label="To-Do List"
                                position="is-bottom">
-                      <b-icon
-                        icon="account"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="th-list" />
                     </b-tooltip>
                   </a>
 
                   <div class="navbar-item has-dropdown is-right is-hoverable">
                     <a class="navbar-link">
-                      <b-icon
-                        icon="help"
-                        size="is-small">
-                      </b-icon>
+                      <font-awesome-icon icon="question" />
                     </a>
 
                     <div class="navbar-dropdown is-right">
