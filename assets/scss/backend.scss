@@ -1,5 +1,42 @@
-@import "customize/bulma/bulma";
-@import "~buefy/src/scss/buefy";
-@import "~bulma-helpers/bulma-helpers";
-@import "~highlight.js/styles/github.css";
+@import "~bulma/sass/utilities/functions.sass";
+@import "customize/bulma/sass/utilities/initial-variables";
+@import "customize/bulma/sass/utilities/derived-variables";
 
+//@import "vaahcms/_functions_bulma.sass";
+@import "vaahcms/_functions";
+@import "vaahcms/card";
+@import "vaahcms/table";
+@import "vaahcms/notification";
+@import "vaahcms/tools";
+@import "vaahcms/datepicker";
+@import "vaahcms/tag";
+@import "vaahcms/button";
+
+.fa-lg{
+    font-size: 0.9rem;
+}
+
+.vaahcms{
+
+    background:#f2f2f2;
+
+    .btn{
+
+    border-radius: 4px;
+    background: #fff;
+
+    &.btn-primary{
+
+      background: #f00;
+
+    }
+
+
+
+    }
+
+
+
+
+
+} //end of .vaahcms

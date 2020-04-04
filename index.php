@@ -18,6 +18,7 @@
         ?>
 		<base href="<?php echo $actual_link; ?>">
 
+		<link href="assets/css/vaahcms.css" rel="stylesheet" media="screen">
 		<link href="assets/css/backend.css" rel="stylesheet" media="screen">
 
 
@@ -32,7 +33,7 @@
 
 
 
-		<script src="assets/builds/ui.js"></script>
+		<script src="assets/builds/app.js"></script>
 
 	</body>
 </html>
