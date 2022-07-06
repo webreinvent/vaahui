@@ -1,17 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
+const {colors} = require("./vaah.config.js");
 
-
-/*
-import { colord } from "colord";
-let primary = "#1d4ed8";
-let primary_colors = {};
-
-for (let i=0;i<=100; i+10) {
-  primary_colors[i] = colord("hsl(224, 76%, 48%)").darken(0.25).toHex();
-}
-
-console.log('--->', primary_colors);*/
+let primary = "hsl(224, 76%, 48%)";
+let primary_colors = colors(primary)
 
 
 module.exports = {
@@ -21,7 +13,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'vh-primary': '#1d4ed8',
+        primary: primary_colors,
       }
     },
   },

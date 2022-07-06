@@ -19,6 +19,12 @@
   <button class="button--primary">Primary</button>
   <button class="button--success">Primary</button>
 
+
+  <hr/>
+
+  <button class="button--primary" v-for="index in 9" :class="'button bg-primary-'+(index*100)">Primary {{(index*100)}}</button>
+
+
   <hr/>
   <h3 class="title is-3">Element Plus</h3>
 

@@ -1,5 +1,5 @@
-import MyUtil from './MyUtil'
+import VaahHelpers from './VaahHelpers'
 
 export {
-  MyUtil
+  VaahHelpers
 }
