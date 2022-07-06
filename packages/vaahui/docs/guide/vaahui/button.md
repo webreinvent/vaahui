@@ -1,5 +1,5 @@
 <script setup>
-import VhButton from './../../components/vaahui/VhButton.vue'
+import VhButton from './../../components/VhButton.vue'
 </script>
 # VhButton
 
@@ -11,4 +11,4 @@ Click the buttons to change the count.
   <VhButton/>
 </DemoContainer>
 
-<<< @/components/vaahui/VhButton.vue
+<<< @/components/VhButton.vue

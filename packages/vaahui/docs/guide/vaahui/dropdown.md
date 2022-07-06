@@ -1,5 +1,5 @@
 <script setup>
-import VhButton from './demo/tailwind/VhButton.vue'
+import VhDropdown from './../../components/VhDropdown.vue'
 </script>
 # VhButton
 
@@ -8,7 +8,7 @@ import VhButton from './demo/tailwind/VhButton.vue'
 Click the buttons to change the count.
 
 <DemoContainer>
-  <VhButton/>
+  <VhDropdown/>
 </DemoContainer>
 
-<<< @/components/demo/tailwind/VhButton.vue
+<<< @/components/VhDropdown.vue
