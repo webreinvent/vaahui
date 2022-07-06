@@ -1,5 +1,5 @@
 @layer components {
-  .el-button, .alert{
+  .el-alert, .alert{
     @apply p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800
   }
 
@@ -10,9 +10,20 @@
 
   .el-alert--success, .alert--success{
     @apply p-4 mb-4 text-sm text-success-500 bg-success-100 rounded-lg dark:bg-success-200 dark:text-success-800
-
-
   }
+  .el-alert--error, .alert--danger{
+    @apply p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800
+  }
+  .el-alert--warning, .alert--warning{
+    @apply p-4 mb-4 text-sm text-yellow-700 bg-yellow-100 rounded-lg dark:bg-yellow-200 dark:text-yellow-800
+  }
+  .el-alert--warning .is-dark, .alert--warning .is-dark{
+    @apply p-4 mb-4 text-sm text-yellow-800 bg-yellow-200 rounded-lg dark:bg-yellow-200 dark:text-yellow-800
+  }
+  .el-dark--warning, .alert--dark {
+    @apply p-4 text-sm text-gray-700 bg-gray-100 rounded-lg dark:bg-gray-700 dark:text-gray-300
+  }
+
 
   .el-alert__content{
     @apply flex justify-between

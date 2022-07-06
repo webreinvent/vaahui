@@ -13,6 +13,7 @@ sidebar = [
             {text: 'Alert', link: '/guide/vaahui/alert'},
             {text: 'Button', link: '/guide/vaahui/button'},
             {text: 'Dropdown', link: '/guide/vaahui/dropdown'},
+            {text: 'VhTree.vue', link: '/guide/vaahui/tree'},
         ]
     },
 
