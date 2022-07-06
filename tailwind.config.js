@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-import { colord } from "colord";
 
-/*let primary = "#1d4ed8";
+
+/*
+import { colord } from "colord";
+let primary = "#1d4ed8";
 let primary_colors = {};
 
 for (let i=0;i<=100; i+10) {

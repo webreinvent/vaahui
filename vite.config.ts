@@ -23,7 +23,7 @@ module.exports = defineConfig({
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'vaahui',
       formats: ['es'], // adding 'umd' requires globals set to every external module
-      fileName: (format) => `vaahui.${format}.js`,
+      //fileName: (format) => `vaahui.${format}.js`,
     },
     rollupOptions: {
       // external modules won't be bundled into your library
