@@ -2,7 +2,7 @@ const {colord} = require("colord");
 
 function colors(color)
 {
-  let primary = "hsl(224, 76%, 48%)";
+  let primary = color;
   let primary_colors = {};
   let item;
   let index;

@@ -6,6 +6,9 @@ let primary = "hsl(224, 76%, 48%)";
 let primary_colors = colors(primary)
 
 
+let success = "hsl(153,53%,53%)";
+let success_colors = colors(success)
+
 module.exports = {
   content: [
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -14,6 +17,7 @@ module.exports = {
     extend: {
       colors: {
         primary: primary_colors,
+        success: success_colors,
       }
     },
   },

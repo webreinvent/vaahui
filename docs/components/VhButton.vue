@@ -17,7 +17,7 @@
   <h3 class="title is-3">VaahUI</h3>
   <button class="button">Default</button>
   <button class="button--primary">Primary</button>
-  <button class="button--success">Primary</button>
+  <button class="button--success">Success</button>
 
 
   <hr/>
