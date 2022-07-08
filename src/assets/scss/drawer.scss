@@ -1,0 +1,182 @@
+@layer components {
+  .el-radio-group{
+    @apply inline-flex items-center flex-wrap
+  }
+  .el-radio{
+    @apply text-gray-800 font-medium relative cursor-pointer whitespace-nowrap outline-none h-8 mr-8 text-sm
+  }
+  .el-radio__input{
+    @apply whitespace-nowrap cursor-pointer outline-none inline-flex relative align-middle
+  }
+  .el-radio__original{
+    @apply opacity-0 outline-none absolute m-0 inset-0
+  }
+  .el-radio__inner{
+    @apply w-3 h-3 relative cursor-pointer inline-block box-border border border-solid border-gray-500 rounded-full mr-1 hover:border-blue-500
+  }
+  .el-radio__input.is-checked .el-radio__inner{
+    @apply border-blue-500 bg-blue-500
+  }
+  .el-radio__inner:after{
+    content: " ";
+    transition: transform .15s ease-in;
+    @apply w-1 h-1 absolute top-1/2 left-1/2 bg-white rounded-full
+  }
+  .el-radio__input.is-checked .el-radio__inner:after {
+    transform: translate(-50%,-50%) scale(1);
+  }
+  .el-radio__label{
+    @apply text-sm
+  }
+  .el-button{
+    @apply py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700;
+  }
+  .el-button--primary{
+    @apply text-white bg-primary-500 hover:bg-primary-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800
+  }
+  .el-overlay{
+      @apply fixed inset-0 h-full bg-black bg-opacity-50 overflow-auto
+     }
+  .el-drawer.ltr,.el-drawer.rtl{
+    @apply h-full top-0 bottom-0 bg-white absolute
+  }
+  .el-drawer.ttb, .el-drawer.btt{
+    @apply w-full left-0 right-0 bg-white absolute
+  }
+  .el-drawer.ttb{
+    @apply top-0
+  }
+  .el-drawer.btt{
+    @apply bottom-0
+  }
+  .el-drawer.ltr{
+    @apply left-0
+  }
+  .el-drawer.rtl{
+    @apply right-0
+  }
+  .el-drawer__header{
+    @apply items-center flex p-5 pb-0 mb-8 text-gray-600 justify-between
+  }
+  .el-drawer__header .el-icon{
+    @apply w-4
+  }
+  .el-drawer__body{
+  @apply flex-1 p-5 overflow-auto
+  }
+  .el-drawer__close-btn{
+    @apply border-none cursor-pointer text-xl bg-transparent outline-none
+  }
+  .el-icon{
+    @apply w-4 h-4 leading-4 inline-flex justify-center items-center relative
+  }
+  .el-icon svg{
+    @apply h-4 w-4
+  }
+  .el-overlay.is-message-box .el-overlay-message-box{
+    @apply text-center fixed inset-0 overflow-auto
+  }
+  .el-message-box{
+    @apply inline-block w-96 pb-3 align-middle bg-white rounded text-lg text-left overflow-hidden border border-solid border-gray-300 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+  }
+  .el-message-box__header{
+    @apply relative p-4
+  }
+  .el-message-box__title{
+    @apply pl-0 mb-0 text-lg
+  }
+  .el-message-box__headerbtn{
+    @apply absolute p-0 border-none outline-none bg-transparent cursor-pointer text-base right-4
+  }
+  .el-message-box__headerbtn .el-message-box__close{
+    @apply text-gray-800
+  }
+  .el-message-box__content{
+    @apply text-sm p-4 pt-1 text-gray-900
+  }
+  .el-message-box__container{
+    @apply relative
+  }
+  .el-message-box__message{
+    @apply m-0
+  }
+  .el-message-box__message p{
+    @apply m-0 leading-6
+  }
+  .el-message-box__input{
+    @apply pt-4
+  }
+  .el-input{
+    @apply h-8 relative w-full inline-flex box-border text-sm leading-8
+  }
+  .el-message-box__btns{
+  @apply px-4 flex flex-wrap justify-end items-center
+}
+  .el-drawer__footer{
+    @apply text-right p-3 pt-2
+  }
+  .el-table{
+    @apply relative overflow-hidden box-border h-fit w-full text-sm max-w-full bg-white text-gray-600
+  }
+  .el-table--fit{
+    @apply border-r-0 border-b-0
+  }
+  .el-table__inner-wrapper{
+    @apply relative
+  }
+  .el-table .hidden-columns{
+    @apply absolute invisible
+  }
+  .el-table__header-wrapper, .el-table__footer-wrapper{
+    @apply overflow-hidden
+  }
+  .el-table__header-wrapper, .el-table__body-wrapper, .el-table__footer-wrapper{
+    @apply w-full
+  }
+  .el-table__header, .el-table__body, .el-table__footer{
+    @apply border-separate table-fixed
+  }
+  .el-table__body-wrapper{
+    @apply overflow-hidden relative
+  }
+  .el-scrollbar{
+    @apply overflow-hidden relative h-full
+  }
+  .el-scrollbar__wrap{
+    @apply overflow-hidden h-full
+  }
+  .el-table__body-wrapper .el-scrollbar__bar{
+    z-index: 2;
+  }
+  .el-scrollbar__bar.is-horizontal{
+    height: 6px;
+    left: 2px;
+  }
+  .el-scrollbar__bar{
+    right: 2px;
+    bottom: 2px;
+    @apply absolute rounded
+  }
+  .el-scrollbar__thumb{
+    @apply relative block w-0 cursor-pointer
+  }
+  .el-scrollbar__bar.is-horizontal>div{
+    @apply h-full
+  }
+  .el-drawer__body>*{
+    @apply box-border
+  }
+  .el-form{
+    @apply text-sm
+  }
+  .el-form-item{
+    @apply flex text-sm mb-4
+  }
+  .el-form-item__label{
+    flex: 0 0 auto;
+    @apply inline-flex items-start justify-end box-border text-sm h-8 p-0 pt-3 leading-8
+  }
+  .el-form-item__content{
+    @apply flex flex-wrap items-center flex-1 leading-8 relative text-sm min-w-0
+  }
+}

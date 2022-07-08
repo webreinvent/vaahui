@@ -10,10 +10,14 @@ sidebar = [
         text: 'VaahUI',
         link: '/guide/vaahui/',
         children: [
+            {text: 'Accordion', link: '/guide/vaahui/accordion'},
             {text: 'Alert', link: '/guide/vaahui/alert'},
+            {text: 'Avatar', link: '/guide/vaahui/avatar'},
             {text: 'Button', link: '/guide/vaahui/button'},
+            {text: 'Drawer', link: '/guide/vaahui/drawer'},
             {text: 'Dropdown', link: '/guide/vaahui/dropdown'},
-            {text: 'VhTree.vue', link: '/guide/vaahui/tree'},
+            {text: 'Pop Confirm', link: '/guide/vaahui/pop-confirm'},
+            {text: 'VhTree', link: '/guide/vaahui/tree'},
         ]
     },
 

@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "scss/accordion";
 @import "scss/alert";
+@import "scss/avatar";
 @import "scss/button";
+@import "scss/drawer";
+@import "scss/pop-confirm";
 @import "scss/typography";
 @import "scss/tree";
 
